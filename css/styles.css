@@ -78,8 +78,16 @@ body {
   background-color: var(--color-white);
 }
 .header-soc-link {
+  display: flex;
+
   width: 100%;
   height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-icon {
+  cursor: pointer;
 }
 
 .nav-wrapper {
@@ -111,6 +119,8 @@ body {
 }
 .header-cart-btn {
   margin-right: 51px;
+  background-color: transparent;
+  border: none;
 }
 .header-order-btn {
   min-width: 222px;
@@ -123,6 +133,7 @@ body {
   text-transform: capitalize;
   border: 2px solid var(--color-yellow);
   background: var(--color-yellow);
+  cursor: pointer;
 }
 
 /* Hero section */
@@ -234,4 +245,54 @@ body {
   line-height: calc(27 / 17);
 }
 .hero-img {
+}
+
+/* About section */
+.about {
+  background-color: #f5f8fc;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+/* Order section */
+
+.order {
+  background-color: var(--blue-background);
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.container {
+}
+.order-container {
+  display: flex;
+  align-items: center;
+}
+.order-title {
+  color: var(--color-white);
+  font-size: 45px;
+  font-family: Cardo;
+  line-height: calc(54 / 45);
+  text-transform: capitalize;
+  margin-bottom: 54px;
+}
+.order-desc {
+  color: var(--light-blue);
+  font-size: 19px;
+  font-family: Inter;
+  line-height: calc(28.5 / 19);
+  margin-bottom: 27px;
+}
+.order-btn {
+  min-width: 220px;
+  height: 66px;
+  background-color: transparent;
+  color: var(--color-white);
+  font-size: 19px;
+  font-family: Cardo;
+  line-height: calc(28.5 / 19);
+  letter-spacing: 0.024em;
+  border: 2px solid var(--color-yellow);
+  cursor: pointer;
+}
+.order-img {
 }
