@@ -836,9 +836,111 @@ body {
 
 /* Words section */
 
+.words {
+}
+
 .words-container {
   padding-top: 130px;
   padding-bottom: 150px;
+  display: flex;
+  align-items: center;
+  gap: 63px;
+}
+
+.words-wrapper {
+}
+
+.words-title {
+  color: var(--blue-text);
+  font-size: 42px;
+  line-height: calc(50.4 / 42);
+  text-transform: capitalize;
+  margin-bottom: 59px;
+}
+
+.words-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--color-yellow);
+  margin-top: 24px;
+}
+
+.words-title-desc {
+  color: var(--grey-color);
+  font-size: 19px;
+  font-family: var(--second-font);
+  line-height: calc(34.2 / 19);
+  min-width: 435px;
+  margin-bottom: 24px;
+}
+
+.rating-wrapper {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.words-img {
+}
+
+.words-rating {
+}
+
+.words-text {
+  color: var(--blue-text);
+  font-size: 18px;
+  font-family: var(--second-font);
+  line-height: calc(28.5 / 18);
+}
+
+.words-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.words-list-item {
+  background: var(--blue-text);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.11);
+  width: calc((100% - 20px) / 2);
+  padding: 30px;
+}
+
+.words-item-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.words-list-img {
+  border-radius: 50%;
+}
+
+.words-subtitle {
+  color: var(--color-white);
+  font-size: 24px;
+  line-height: calc(28.8 / 24);
+  margin-bottom: 15px;
+}
+
+.words-rating-img {
+  margin-bottom: 37px;
+}
+
+.words-list-text {
+  color: var(--color-white);
+  font-size: 22px;
+  line-height: calc(33 / 22);
+  margin-bottom: 13px;
+}
+
+.words-desc {
+  color: #b4c7e7;
+  font-size: 18px;
+  font-family: var(--second-font);
+  line-height: calc(28.8 / 18);
 }
 
 /* Articles section */
@@ -1011,6 +1113,10 @@ body {
   letter-spacing: 0.011em;
 }
 
+.center-btn {
+  display: inline-block;
+}
+
 .updates-btn {
   width: 328px;
   height: 68px;
@@ -1023,4 +1129,9 @@ body {
   line-height: calc(30.6 / 18);
   letter-spacing: 0.011em;
   margin-left: 16px;
+}
+
+.rating-svg {
+  /* stroke: var(--color-yellow); */
+  fill: #ffca42;
 }
