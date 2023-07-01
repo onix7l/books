@@ -281,7 +281,6 @@ body {
   line-height: calc(50.4 / 42);
   text-transform: capitalize;
   margin-bottom: 96px;
-  /* position: relative; */
 }
 
 .books-title::after {
@@ -292,9 +291,6 @@ body {
   background: var(--color-yellow);
   margin: 0 auto;
   margin-top: 23px;
-  /* position: absolute;
-  left: 0;
-  bottom: 0; */
 }
 
 .books-list {
@@ -395,17 +391,12 @@ body {
 }
 
 .img-author-wrapper {
-  /* position: relative; */
 }
 
 .author-yellow-border {
   width: 525px;
   height: 620px;
   border: 10px solid var(--color-yellow);
-  /* position: absolute;
-  top: 50px;
-  left: 50px; */
-  /* z-index: 1; */
   position: relative;
   left: 50px;
   top: 10px;
@@ -658,8 +649,6 @@ body {
 .learn-list-item {
   background: var(--light-blue-background);
   padding: 30px;
-  /* width: 303px;
-  height: 272px; */
   width: calc((100% - 30px) / 2);
 }
 
@@ -783,10 +772,6 @@ body {
   top: 5px;
 }
 
-/* .category-wrapper {
-  display: flex;
-} */
-
 .enhance-category {
   color: var(--blue-text);
   font-size: 22px;
@@ -798,7 +783,6 @@ body {
   font-size: 17px;
   font-family: var(--second-font);
   line-height: calc(33 / 17);
-  /* line-height: calc(27 / 17); */
 }
 
 .enhance-btn {
@@ -921,18 +905,20 @@ body {
 .words-subtitle {
   color: var(--color-white);
   font-size: 24px;
+  font-weight: 400;
   line-height: calc(28.8 / 24);
   margin-bottom: 15px;
 }
 
 .words-rating-img {
-  margin-bottom: 37px;
+  fill: var(--color-yellow);
 }
 
 .words-list-text {
   color: var(--color-white);
   font-size: 22px;
   line-height: calc(33 / 22);
+  margin-top: 20px;
   margin-bottom: 13px;
 }
 
@@ -1091,7 +1077,6 @@ body {
 }
 
 .updates-form {
-  /* margin: 0 auto; */
 }
 
 .updates-field {
@@ -1132,7 +1117,6 @@ body {
 }
 
 .rating-svg {
-  /* stroke: var(--color-yellow); */
   fill: #ffca42;
 }
 
@@ -1193,7 +1177,8 @@ body {
   margin-bottom: 24px;
 }
 
-.footer-list {
+.footer-list li:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-list-link {
@@ -1203,8 +1188,6 @@ body {
   line-height: calc(30.6 / 18);
   letter-spacing: 0.01em;
   display: block;
-  margin-bottom: 9px;
-  /* last child!!! */
   display: flex;
 }
 
@@ -1215,11 +1198,30 @@ body {
   margin-right: 10px;
 }
 
-/* <span>&#8231;&#8231;&#8231;</span>
+.footer-address {
+  font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+  width: 416px;
+  gap: 28px;
+}
 
-.footer-list-link span {
-  color: var(--color-yellow);
-} */
+.address-name {
+  color: var(--color-white);
+  font-size: 18px;
+  font-family: Cardo;
+  line-height: calc(27 / 18);
+  letter-spacing: 0.013em;
+  width: 81px;
+}
+
+.address-value {
+  color: var(--light-blue);
+  font-size: 17px;
+  font-family: var(--second-font);
+  line-height: calc(27 / 17);
+  width: 234px;
+}
 
 .footer-copy {
   color: var(--light-blue);
