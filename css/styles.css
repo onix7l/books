@@ -496,8 +496,8 @@ body {
 /* Trusted section */
 
 .trusted {
-  margin-top: 110px;
-  margin-bottom: 126px;
+  padding-top: 110px;
+  padding-bottom: 126px;
 }
 
 .trusted-container {
@@ -608,11 +608,11 @@ body {
 /* Learn section */
 
 .learn {
+  padding-top: 136px;
+  padding-bottom: 140px;
 }
 
 .learn-container {
-  padding-top: 136px;
-  padding-bottom: 140px;
 }
 
 .learn-title {
@@ -821,11 +821,11 @@ body {
 /* Words section */
 
 .words {
+  padding-top: 130px;
+  padding-bottom: 150px;
 }
 
 .words-container {
-  padding-top: 130px;
-  padding-bottom: 150px;
   display: flex;
   align-items: center;
   gap: 63px;
@@ -1026,11 +1026,11 @@ body {
 /* Updates section */
 
 .updates {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .updates-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .updates-wrapper {
